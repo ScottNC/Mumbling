@@ -10,5 +10,6 @@ public class AccumulTest {
     public void accum() {
         testing(Accumul.accum("A"), "A");
         testing(Accumul.accum("B"), "B");
+        testing(Accumul.accum("c"), "C");
     }
 }
